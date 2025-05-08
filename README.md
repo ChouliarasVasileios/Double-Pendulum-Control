@@ -1,5 +1,5 @@
 # Double-Pendulum-Control
-This repository contains the implementation of **Linear Quadratic Requlator (LQR)** and **Convex Model Predictive Control (MPC)** for stabilizing a **double pendulum system**. The [project]() was developed as part of the **Robotics System II course**, supervised by **Assistant Professor Konstantinos Chatzilygeroudis.**
+This repository contains the implementation of **Linear Quadratic Requlator (LQR)** and **Convex Model Predictive Control (MPC)** for stabilizing a **double pendulum system**. The [project](https://github.com/ChouliarasVasileios/Double-Pendulum-Control/blob/main/ECEUoP_RS_2_HW_2.pdf) was developed as part of the **Robotics System II course**, supervised by **Assistant Professor Konstantinos Chatzilygeroudis.**
 
 # Project Overview
 The aim of this assignment was to:
@@ -14,7 +14,7 @@ The double pendulum is a classic example of a non-linear system known for it's c
 
 # Report
 
-A detailed technical report ([Homework2_Robotics_Systems_II.pdf]()) is provided in Greek documenting:
+A detailed technical report ([Homework2_Robotics_Systems_II.pdf](https://github.com/ChouliarasVasileios/Double-Pendulum-Control/blob/main/Homework2_Robotics_System_II.pdf)) is provided in Greek documenting:
 
 - The mathematical modeling
 - Linearization & LQR
