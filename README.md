@@ -22,4 +22,4 @@ A detailed technical report ([Homework2_Robotics_Systems_II.pdf](https://github.
 - Simulation results
 
 # Acknowledgements
-This project was completed as part of the Robotics Systems II course under the guidance of **Assistant Profeessor Konstantinos Chatzilygeroudis.**
+This project was completed as part of the Robotics Systems II course under the guidance of **Assistant Professor Konstantinos Chatzilygeroudis.**
