@@ -20,3 +20,5 @@ venv/
 .DS_Store  # macOS
 Thumbs.db  # Windows
 
+# My files
+ignore_files/
