@@ -39,7 +39,7 @@ class MPC:
         pre_in = self.qp.results.z
         
         
-        self.qp.update(self.H_matrix,self.h,self.G_matrix,self.d,self.C_matrix,self.lower,self.upper)
+        self.qp.update(self.H_matrix,self.h.flatten(),self.G_matrix,self.d.flatten(),self.C_matrix,self.lower.flatten(),self.upper.flatten())
         
         self.qp.solve(pre_x,pre_eq,pre_in)
         
@@ -131,7 +131,7 @@ class MPC:
         
         qp = proxsuite.proxqp.dense.QP(qp_dim,qp_dim_eq,qp_dim_in)
         
-        qp.init(H_matrix,h,G_matrix,d,C_matrix,lower,upper)
+        qp.init(H_matrix,h.flatten(),G_matrix,d.flatten(),C_matrix,lower.flatten(),upper.flatten())
         
         # Warm Up
         qp.solve()
